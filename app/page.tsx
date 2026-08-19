@@ -1,15 +1,23 @@
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import Aboutme from "@/components/Aboutme";
+import WorkedWith from "@/components/WorkedWith";
+import FeaturedWork from "@/components/FeaturedWork";
+import Philosophy from "@/components/Philosophy";
+import Contact from "@/components/Contact";
+
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center bg-[#F8F8F5]">
-      <div className="text-center">
-        <h1 className="text-6xl font-bold text-black">
-          Daksh Chhabra
-        </h1>
-
-        <p className="mt-6 text-xl text-gray-600">
-          Brand Strategist • Creative Director • Storyteller
-        </p>
-      </div>
-    </main>
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <Aboutme />
+        <WorkedWith />
+        <FeaturedWork />
+        <Philosophy />
+        <Contact />
+      </main>
+    </>
   );
 }
