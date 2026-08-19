@@ -3,7 +3,7 @@ import Image from "next/image";
 const brands = [
   { name: "Netflix", src: "/logo/netflix-3.svg", bg: "bg-[#fff7ed]" },
   { name: "Marvel", src: "/logo/marvel.svg", bg: "bg-[#fff7ed]" },
-  { name: "Amber", src: "/logo/amber.svg", bg: "bg-[#fff7ed]" },
+  { name: "Amber", src: "/logo/idOBLzPD8u_1787133313685.svg", bg: "bg-[#fff7ed]" },
   { name: "Crompton", src: "/logo/crompton-seeklogo.svg", bg: "bg-[#fff7ed]" },
   { name: "JBL", src: "/logo/jbl-svgrepo-com.svg", bg: "bg-[#fff7ed]" },
   { name: "MTV India", src: "/logo/mtv-india.svg", bg: "bg-[#fff7ed]" },
